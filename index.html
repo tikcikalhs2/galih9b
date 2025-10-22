@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Home</title>
+<style type="text/css">
+/* ====== RESET DAN DASAR ====== */
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Age", sans-serif;
+}
+
+/* ====== HEADING ====== */
+.style1 {
+  font-family: cravend;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ====== TEKS PRODUK ====== */
+.style2 {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* ====== MENU BAR ====== */
+.navbar {
+  width: 100%;
+  background-color: #FF0000;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px 0;
+}
+
+.navbar a {
+  font-size: 24px;
+  font-family: "Space Age";
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #FFFF00;
+  color: #000000;
+  border-radius: 5px;
+}
+
+/* ====== RUNNING TEXT ====== */
+.running-text {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #FFFF00;
+  color: #0000FF;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+/* ====== PRODUK GRID ====== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.product-item {
+  background-color: #000000;
+  border: 2px solid #FF0000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.product-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.price {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- Judul -->
+  <div class="style1">InterKom</div>
+
+  <!-- Banner -->
+  <div align="center">
+    <img src="img/banner.PNG" width="1388" height="351" alt="Banner" />
+  </div>
+
+  <!-- Menu -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="Shoping guide.html">Shopping Guide</a>
+    <a href="catalog.html">Catalog</a>
+    <a href="Profil.html">Profil</a> </div>
+
+  <!-- Running Text -->
+  <div class="running-text">
+    <marquee>Best Seller</marquee>
+  </div>
+
+  <!-- Produk Grid -->
+  <div class="product-grid">
+
+    <div class="product-item">
+      <img src="img/Router Wifi netgear.png" alt="Router" />
+      <p class="style2">Router</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/SFP+.png" alt="SFP+" />
+      <p class="style2">SFP+ 10G</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/Switch Mikrotik.png" alt="Mikrotik" />
+      <p class="style2">Mikrotik</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/RJ 45.png" alt="RJ45" />
+      <p class="style2">RJ45</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/Router Wifi netgear.png" alt="Router" />
+      <p class="style2">Router</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/SFP+.png" alt="SFP+" />
+      <p class="style2">SFP+ 10G</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/Switch Mikrotik.png" alt="Mikrotik" />
+      <p class="style2">Mikrotik</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+    <div class="product-item">
+      <img src="img/RJ 45.png" alt="RJ45" />
+      <p class="style2">RJ45</p>
+      <div class="price">Rp. 1.200.000</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
